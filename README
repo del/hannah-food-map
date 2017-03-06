@@ -1,0 +1,6 @@
+# First, we scrape the data, then we run it through Google's API
+# and output map.html with the final HTML page.
+
+scrapy runspider foodie_spider.py -o foodie_scraped.json
+
+python foodie_parser.py
