@@ -1,4 +1,4 @@
-import ConfigParser
+import configparser
 import jinja2
 import json
 import os.path
@@ -15,8 +15,10 @@ tmplname = 'map_template.html'
 htmlname = 'map.html'
 
 # Google Maps API config, key is read from config file
+config   = configparser.ConfigParser()
+config.read('foodie.ini')
+api_key  = config["google"]["api_key"]
 goog_url = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-api_key  = ConfigParser.ConfigParser().read("foodie.ini").get("google", "api_key")
 
 
 
