@@ -1,6 +1,95 @@
 [
   {
     "visited": false,
+    "venue": "Hotell Skepsholmen",
+    "comment": "",
+    "google": {
+      "address_components": [
+        {
+          "long_name": "1",
+          "short_name": "1",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Gr\u00f6na g\u00e5ngen",
+          "short_name": "Gr\u00f6na g\u00e5ngen",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Norrmalm",
+          "short_name": "Norrmalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "111 86",
+          "short_name": "111 86",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Gr\u00f6na g\u00e5ngen 1, 111 86 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3247417,
+          "lng": 18.0876067
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.32609068029151,
+            "lng": 18.0889556802915
+          },
+          "southwest": {
+            "lat": 59.3233927197085,
+            "lng": 18.0862577197085
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJtenOqRxxX0YRpiZ0bJ1z7vg",
+      "types": [
+        "establishment",
+        "food",
+        "lodging",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "visited": false,
     "venue": "Borgs Bageri",
     "comment": "",
     "google": {
@@ -335,9 +424,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Trattorian",
-    "comment": "(Italiensk brunchbuff\u00e9)",
+    "comment": "v\u00e5r/sommar 2013 med familjen",
     "google": {
       "address_components": [
         {
@@ -415,9 +504,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Berns",
-    "comment": "(Asian brunch)",
+    "comment": "(Helt ok mat och fina lokaler) - v\u00e5r/h\u00f6st 2014",
     "google": {
       "address_components": [
         {
@@ -593,8 +682,93 @@
   },
   {
     "visited": true,
+    "venue": "Paraden",
+    "goog_venue": "Valhallav\u00e4gen 147, 11531",
+    "comment": "(Bockholmengruppens nya st\u00e4lle)",
+    "google": {
+      "address_components": [
+        {
+          "long_name": "147",
+          "short_name": "147",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Valhallav\u00e4gen",
+          "short_name": "Valhallav\u00e4gen",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "\u00d6stermalm",
+          "short_name": "\u00d6stermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "115 31",
+          "short_name": "115 31",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Valhallav\u00e4gen 147, 115 31 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3412063,
+          "lng": 18.0900963
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 59.34255528029151,
+            "lng": 18.0914452802915
+          },
+          "southwest": {
+            "lat": 59.3398573197085,
+            "lng": 18.0887473197085
+          }
+        }
+      },
+      "place_id": "ChIJw8qttEidX0YRmbZM5s5WHkY",
+      "types": [
+        "street_address"
+      ]
+    }
+  },
+  {
+    "visited": true,
     "venue": "Brasserie Balzac",
-    "comment": "(Ska ha goda benedict/royal osv.) - Dec 2016",
+    "comment": "(Ny\u00f6ppnat p\u00e5 Odengatan) - Mars 2016 med Evin",
     "google": {
       "address_components": [
         {
@@ -859,7 +1033,7 @@
   {
     "visited": true,
     "venue": "Miss Clara by Nobis",
-    "comment": "(Jazzbrunch p\u00e5 helgen, s\u00e5 god mat!) - Okt 2016 med Jolin",
+    "comment": "(Nobis dotterhotell) - Maj 2015 med Jolin & Rebecka",
     "google": {
       "address_components": [
         {
@@ -1834,7 +2008,7 @@
   {
     "visited": true,
     "venue": "Saturnus",
-    "comment": "(Helt ok Eggs norvegienne) - okt 2015 med Frida",
+    "comment": "(Classic Stockholm place with massive cinnamon buns)",
     "google": {
       "address_components": [
         {
@@ -2185,7 +2359,7 @@
   {
     "visited": true,
     "venue": "Riche",
-    "comment": "(Riktigt nice f\u00f6r brunch med, god Egg Royale) - h\u00f6st 2015 med Annahita & co",
+    "comment": "v\u00e5r 2014 med BCG",
     "google": {
       "address_components": [
         {
@@ -2446,7 +2620,7 @@
   {
     "visited": true,
     "venue": "Kommend\u00f6ren",
-    "comment": "med Jolin & Annahita",
+    "comment": "Vinter 2014",
     "google": {
       "address_components": [
         {
@@ -2730,7 +2904,7 @@
   {
     "visited": true,
     "venue": "Sixten & Frans",
-    "comment": "(Mer lunch \u00e4n brunch, men gott kaffe och goda mackor) - Mars 2015",
+    "comment": "(Bara \u00e4tit lunch / fika)",
     "google": {
       "address_components": [
         {
@@ -2878,7 +3052,7 @@
   {
     "visited": true,
     "venue": "Marie Laveau",
-    "comment": "(Helt okej, b\u00f6r \u00e4ta det mexikanska n\u00e4r man \u00e4r d\u00e4r, pannkakorna var r\u00e4tt trista) - Februari 2015",
+    "comment": "(Brunch med Bianca) - V\u00e5r 2015",
     "google": {
       "address_components": [
         {
@@ -2967,7 +3141,7 @@
   {
     "visited": true,
     "venue": "Nybrogatan 38",
-    "comment": "(Riktigt bra Eggs benedict!) - V\u00e5r 2014",
+    "comment": "sommar 2013 med Micha\u00ebla",
     "google": {
       "address_components": [
         {
@@ -3055,7 +3229,7 @@
   {
     "visited": true,
     "venue": "Mellqvist",
-    "comment": "",
+    "comment": "(Very classic \"Birkastan place\" with a lot of locals, good coffee and bakeries)",
     "google": {
       "address_components": [
         {
@@ -3142,7 +3316,7 @@
   {
     "visited": true,
     "venue": "Caf\u00e9 Pascal",
-    "comment": "",
+    "comment": "(B\u00e4sta caf\u00e9t i Stockholm)",
     "google": {
       "address_components": [
         {
@@ -3316,7 +3490,7 @@
   {
     "visited": true,
     "venue": "Xoko",
-    "comment": "",
+    "comment": "(Closed)",
     "google": {
       "address_components": [
         {
@@ -3652,94 +3826,6 @@
         }
       },
       "place_id": "ChIJB4QhRFudX0YR8P70BTHUAwM",
-      "types": [
-        "establishment",
-        "food",
-        "point_of_interest",
-        "restaurant"
-      ]
-    }
-  },
-  {
-    "visited": false,
-    "venue": "Ibu",
-    "goog_venue": "Mother",
-    "comment": "(Ny restaurang p\u00e5 Mother, typ peruansk mat...)",
-    "google": {
-      "address_components": [
-        {
-          "long_name": "19",
-          "short_name": "19",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "M\u00e4ster Samuelsgatan",
-          "short_name": "M\u00e4ster Samuelsgatan",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Norrmalm",
-          "short_name": "Norrmalm",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_1"
-          ]
-        },
-        {
-          "long_name": "Stockholm",
-          "short_name": "Stockholm",
-          "types": [
-            "postal_town"
-          ]
-        },
-        {
-          "long_name": "Stockholms l\u00e4n",
-          "short_name": "Stockholms l\u00e4n",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Sweden",
-          "short_name": "SE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "111 44",
-          "short_name": "111 44",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "M\u00e4ster Samuelsgatan 19, 111 44 Stockholm, Sweden",
-      "geometry": {
-        "location": {
-          "lat": 59.3339617,
-          "lng": 18.0697069
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 59.3353106802915,
-            "lng": 18.0710558802915
-          },
-          "southwest": {
-            "lat": 59.33261271970849,
-            "lng": 18.0683579197085
-          }
-        }
-      },
-      "place_id": "ChIJa9z_aVydX0YRArv76XTvxVk",
       "types": [
         "establishment",
         "food",
@@ -4100,6 +4186,12 @@
         "point_of_interest"
       ]
     }
+  },
+  {
+    "visited": false,
+    "venue": "Deli di Luca",
+    "comment": "(Verkar nice b\u00e5de f\u00f6r middag och vin / fika)",
+    "google": {}
   },
   {
     "visited": false,
@@ -4710,7 +4802,7 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Sixten & Frans",
     "comment": "(Bara \u00e4tit lunch / fika)",
     "google": {
@@ -5084,93 +5176,6 @@
       "place_id": "ChIJxeD7r26dX0YRB1p6Y-5cyAc",
       "types": [
         "bar",
-        "establishment",
-        "food",
-        "point_of_interest",
-        "restaurant"
-      ]
-    }
-  },
-  {
-    "visited": false,
-    "venue": "Vina",
-    "comment": "(G\u00e5 med Bianca?)",
-    "google": {
-      "address_components": [
-        {
-          "long_name": "1",
-          "short_name": "1",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Sofiagatan",
-          "short_name": "Sofiagatan",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "S\u00f6dermalm",
-          "short_name": "S\u00f6dermalm",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_1"
-          ]
-        },
-        {
-          "long_name": "Stockholm",
-          "short_name": "Stockholm",
-          "types": [
-            "postal_town"
-          ]
-        },
-        {
-          "long_name": "Stockholms l\u00e4n",
-          "short_name": "Stockholms l\u00e4n",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Sweden",
-          "short_name": "SE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "116 40",
-          "short_name": "116 40",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "Sofiagatan 1, 116 40 Stockholm, Sweden",
-      "geometry": {
-        "location": {
-          "lat": 59.3115506,
-          "lng": 18.0820685
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 59.3128995802915,
-            "lng": 18.0834174802915
-          },
-          "southwest": {
-            "lat": 59.31020161970849,
-            "lng": 18.0807195197085
-          }
-        }
-      },
-      "place_id": "ChIJ4yoNnPd3X0YRoX6nk4QZ0GA",
-      "types": [
         "establishment",
         "food",
         "point_of_interest",
@@ -5859,7 +5864,7 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Paraden",
     "goog_venue": "Valhallav\u00e4gen 147, 11531",
     "comment": "(Bockholmengruppens nya st\u00e4lle)",
@@ -6206,6 +6211,12 @@
   },
   {
     "visited": false,
+    "venue": "Kaggen, Gamla Stan",
+    "comment": "(Kockar fr\u00e5n Djuret och Omakase K\u00f6ttsl\u00f6jd i Frantz\u00e9ns gamla lokaler)",
+    "google": {}
+  },
+  {
+    "visited": false,
     "venue": "Omakase K\u00f6ttsl\u00f6jd",
     "comment": "",
     "google": {
@@ -6464,6 +6475,100 @@
         "restaurant"
       ]
     }
+  },
+  {
+    "visited": true,
+    "venue": "Ibu",
+    "goog_venue": "Mother",
+    "comment": "(Ny restaurang p\u00e5 Mother, Balinesiska sm\u00e5r\u00e4tter - sjukt gott!) - Mars 2017",
+    "google": {
+      "address_components": [
+        {
+          "long_name": "19",
+          "short_name": "19",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "M\u00e4ster Samuelsgatan",
+          "short_name": "M\u00e4ster Samuelsgatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Norrmalm",
+          "short_name": "Norrmalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "111 44",
+          "short_name": "111 44",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "M\u00e4ster Samuelsgatan 19, 111 44 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3339617,
+          "lng": 18.0697069
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.3353106802915,
+            "lng": 18.0710558802915
+          },
+          "southwest": {
+            "lat": 59.33261271970849,
+            "lng": 18.0683579197085
+          }
+        }
+      },
+      "place_id": "ChIJa9z_aVydX0YRArv76XTvxVk",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
+  },
+  {
+    "visited": true,
+    "venue": "Vina, Nytorget",
+    "comment": "(S\u00e5 himla mysigt st\u00e4lle, massa gott vin & god mat!) - Mars 2017",
+    "google": {}
   },
   {
     "visited": true,
@@ -7772,7 +7877,7 @@
   {
     "visited": true,
     "venue": "19 Glas",
-    "comment": "(Gott och trevligt, mycket goda viner) - Sept 2016",
+    "comment": "(Inga drinkar, men massa gott vin) - Dec 2015",
     "google": {
       "address_components": [
         {
@@ -9625,7 +9730,7 @@
   {
     "visited": true,
     "venue": "Le Rouge",
-    "comment": "(Helt ok, fin milj\u00f6 men s\u00e5d\u00e4r mat) - Dec 2015 med BCG",
+    "comment": "(Riktigt h\u00f6st/vinterst\u00e4lle) - Dec 2015",
     "google": {
       "address_components": [
         {
@@ -14001,7 +14106,7 @@
   {
     "visited": false,
     "venue": "Maya, Kungsholmen",
-    "comment": "",
+    "comment": "(Mexikanskt st\u00e4lle p\u00e5 Kungsholmen)",
     "google": {
       "address_components": [
         {
@@ -16469,90 +16574,9 @@
   },
   {
     "visited": false,
-    "venue": "Ramen Ki-Mama",
+    "venue": "Ramen Ki-Mama, Birger Jarlsgatan",
     "comment": "",
-    "google": {
-      "address_components": [
-        {
-          "long_name": "93",
-          "short_name": "93",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Birger Jarlsgatan",
-          "short_name": "Birger Jarlsgatan",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Norrmalm",
-          "short_name": "Norrmalm",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_1"
-          ]
-        },
-        {
-          "long_name": "Stockholm",
-          "short_name": "Stockholm",
-          "types": [
-            "postal_town"
-          ]
-        },
-        {
-          "long_name": "Stockholms l\u00e4n",
-          "short_name": "Stockholms l\u00e4n",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Sweden",
-          "short_name": "SE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "113 56",
-          "short_name": "113 56",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "Birger Jarlsgatan 93, 113 56 Stockholm, Sweden",
-      "geometry": {
-        "location": {
-          "lat": 59.34702960000001,
-          "lng": 18.0608269
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 59.34837858029151,
-            "lng": 18.0621758802915
-          },
-          "southwest": {
-            "lat": 59.3456806197085,
-            "lng": 18.0594779197085
-          }
-        }
-      },
-      "place_id": "ChIJyTBmdGydX0YRMCR3ae43Mj8",
-      "types": [
-        "establishment",
-        "food",
-        "point_of_interest",
-        "restaurant"
-      ]
-    }
+    "google": {}
   },
   {
     "visited": false,
@@ -18694,9 +18718,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Tweed",
-    "comment": "(\u201dLyxburgare\")",
+    "comment": "(S\u00e5 goda drinkar) - H\u00f6st 2015",
     "google": {
       "address_components": [
         {
@@ -18869,7 +18893,7 @@
   {
     "visited": false,
     "venue": "Miss Behave, Skeppsbrokajen",
-    "comment": "",
+    "comment": "(Hamburgerst\u00e4lle p\u00e5 Skeppsbron)",
     "google": {
       "address_components": [
         {
@@ -18952,6 +18976,18 @@
         "restaurant"
       ]
     }
+  },
+  {
+    "visited": false,
+    "venue": "Frick & Son, Birger Jarlsgatan",
+    "comment": "(Tidigare en food truck)",
+    "google": {}
+  },
+  {
+    "visited": false,
+    "venue": "L\u00e5dan",
+    "comment": "(Flippin Burgers nya st\u00e4lle med blandad fast food)",
+    "google": {}
   },
   {
     "visited": true,
@@ -20057,9 +20093,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Fat Franks, Karlav\u00e4gen",
-    "comment": "(Har glutenfritt!!)",
+    "comment": "(Har glutenfritt!! V\u00e4ldigt gott, \u00e4ven om b\u00e5de Meno Male & Bananas \u00e4r vassare) - Mars 2017",
     "google": {
       "address_components": [
         {
@@ -23962,6 +23998,12 @@
     }
   },
   {
+    "visited": false,
+    "venue": "Fikabaren, S\u00f6der",
+    "comment": "",
+    "google": {}
+  },
+  {
     "visited": true,
     "venue": "Cykelcaf\u00e9t Le Mond",
     "comment": "(Helt ok kaffe och acai bowls, lite Aussie style) - Feb 2017",
@@ -26324,9 +26366,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "Zink Grill",
-    "comment": "",
+    "comment": "(N\u00e4ra jobbet, god mat och mysigt) - Dec 2016",
     "google": {
       "address_components": [
         {
@@ -26672,9 +26714,9 @@
     }
   },
   {
-    "visited": false,
+    "visited": true,
     "venue": "20hundra5",
-    "comment": "",
+    "comment": "(S\u00f6ndagsbrunch, massa goda mackor med pulled pork etc.) - Maj 2016 m Nora & Line",
     "google": {
       "address_components": [
         {
@@ -27027,6 +27069,12 @@
         "restaurant"
       ]
     }
+  },
+  {
+    "visited": false,
+    "venue": "Stockholms br\u00e4nneri",
+    "comment": "",
+    "google": {}
   },
   {
     "visited": true,
@@ -29033,7 +29081,7 @@
   {
     "visited": true,
     "venue": "Marie Laveau",
-    "comment": "",
+    "comment": "(Brunch med Bianca) - V\u00e5r 2015",
     "google": {
       "address_components": [
         {
@@ -29122,7 +29170,7 @@
   {
     "visited": true,
     "venue": "Nosh & Chow",
-    "comment": "",
+    "comment": "(Riktigt gott, trevlig milj\u00f6) - vinter 2014",
     "google": {
       "address_components": [
         {
@@ -29202,95 +29250,6 @@
         "bar",
         "establishment",
         "food",
-        "point_of_interest",
-        "restaurant"
-      ]
-    }
-  },
-  {
-    "visited": false,
-    "venue": "Hotell Skepsholmen",
-    "comment": "",
-    "google": {
-      "address_components": [
-        {
-          "long_name": "1",
-          "short_name": "1",
-          "types": [
-            "street_number"
-          ]
-        },
-        {
-          "long_name": "Gr\u00f6na g\u00e5ngen",
-          "short_name": "Gr\u00f6na g\u00e5ngen",
-          "types": [
-            "route"
-          ]
-        },
-        {
-          "long_name": "Norrmalm",
-          "short_name": "Norrmalm",
-          "types": [
-            "political",
-            "sublocality",
-            "sublocality_level_1"
-          ]
-        },
-        {
-          "long_name": "Stockholm",
-          "short_name": "Stockholm",
-          "types": [
-            "postal_town"
-          ]
-        },
-        {
-          "long_name": "Stockholms l\u00e4n",
-          "short_name": "Stockholms l\u00e4n",
-          "types": [
-            "administrative_area_level_1",
-            "political"
-          ]
-        },
-        {
-          "long_name": "Sweden",
-          "short_name": "SE",
-          "types": [
-            "country",
-            "political"
-          ]
-        },
-        {
-          "long_name": "111 86",
-          "short_name": "111 86",
-          "types": [
-            "postal_code"
-          ]
-        }
-      ],
-      "formatted_address": "Gr\u00f6na g\u00e5ngen 1, 111 86 Stockholm, Sweden",
-      "geometry": {
-        "location": {
-          "lat": 59.3247417,
-          "lng": 18.0876067
-        },
-        "location_type": "APPROXIMATE",
-        "viewport": {
-          "northeast": {
-            "lat": 59.32609068029151,
-            "lng": 18.0889556802915
-          },
-          "southwest": {
-            "lat": 59.3233927197085,
-            "lng": 18.0862577197085
-          }
-        }
-      },
-      "partial_match": true,
-      "place_id": "ChIJtenOqRxxX0YRpiZ0bJ1z7vg",
-      "types": [
-        "establishment",
-        "food",
-        "lodging",
         "point_of_interest",
         "restaurant"
       ]
