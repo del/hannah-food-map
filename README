@@ -1,5 +1,8 @@
-# First, we scrape the data, then we run it through Google's API
+# Remove the old data, because scrapy doesn't truncate the file.
+# Then we scrape the data, run it through Google's API
 # and output map.html with the final HTML page.
+
+rm foodie_scraped.json
 
 scrapy runspider foodie_spider.py -o foodie_scraped.json
 

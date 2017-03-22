@@ -57,19 +57,33 @@ def row_filter(row):
 # read output data if it already exists
 if os.path.exists(ofname):
     with open(ofname) as outfile:
-        rows = json.load(outfile)
+        oldrows = json.load(outfile)
 else:
-    rows = []
+    oldrows = []
 
 # read data from web crawler
 with open(ifname) as infile:
     inrows = [r for r in json.load(infile) if row_filter(r)]
 
-# find new rows
-existing_venues = set([r['venue'] for r in rows])
+# find new rows and update descriptions/visited status
+existing_venues = {}
+for i, r in enumerate(oldrows):
+    existing_venues[r['venue']] = i
+
+rows = []
 for row in inrows:
     if row['venue'] not in existing_venues:
         rows.append(row)
+    else:
+        # Updating is a little tricky, some venues occur multiple
+        # times in the list, with different comments. We pick the last
+        # non-empty comment, and we also pick visited: true if it is anywhere.
+        updrow = oldrows[existing_venues[row['venue']]]
+        if row['comment'] != "":
+            updrow['comment'] = row['comment']
+        if not updrow['visited']:
+            updrow['visited'] = row['visited']
+        rows.append(updrow)
 
 
 # download addresses from google maps
@@ -102,6 +116,7 @@ for row in rows:
             print("ERROR: No address for {}, {}".format(row['venue'], row['comment']))
 
 
+# Write parsed rows to file
 with open(ofname, 'wt') as outfile:
     json.dump(rows, outfile, indent=2)
 
@@ -111,6 +126,19 @@ env = jinja2.Environment(
     loader     = jinja2.FileSystemLoader(os.path.dirname(os.path.abspath(__file__))),
     autoescape = False
 )
+
+# We don't want all the google data in the HTML, only the coordinates and formatted address
+maprows = []
+for row in rows:
+    if 'google' in row and 'formatted_address' in row['google'] and 'geometry' in row['google']:
+        newgoogle = {
+            'formatted_address': row['google']['formatted_address'],
+            'geometry': {
+                'location': row['google']['geometry']['location']
+               }
+           }
+        row['google'] = newgoogle
+
 
 with open(htmlname, 'wt') as outfile:
     template = env.get_template(tmplname)
