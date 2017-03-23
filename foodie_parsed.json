@@ -4191,7 +4191,88 @@
     "visited": false,
     "venue": "Deli di Luca",
     "comment": "(Verkar nice b\u00e5de f\u00f6r middag och vin / fika)",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "110",
+          "short_name": "110",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Folkungagatan",
+          "short_name": "Folkungagatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "S\u00f6dermalm",
+          "short_name": "S\u00f6dermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "116 30",
+          "short_name": "116 30",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Folkungagatan 110, 116 30 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.31537669999999,
+          "lng": 18.0842526
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.3167256802915,
+            "lng": 18.0856015802915
+          },
+          "southwest": {
+            "lat": 59.31402771970849,
+            "lng": 18.0829036197085
+          }
+        }
+      },
+      "place_id": "ChIJMQi0Afl3X0YRbq3eJsYmWjM",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
   },
   {
     "visited": false,
@@ -6568,7 +6649,88 @@
     "visited": true,
     "venue": "Vina, Nytorget",
     "comment": "(S\u00e5 himla mysigt st\u00e4lle, massa gott vin & god mat!) - Mars 2017",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "1",
+          "short_name": "1",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Sofiagatan",
+          "short_name": "Sofiagatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "S\u00f6dermalm",
+          "short_name": "S\u00f6dermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "116 40",
+          "short_name": "116 40",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Sofiagatan 1, 116 40 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3115506,
+          "lng": 18.0820685
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.3128995802915,
+            "lng": 18.0834174802915
+          },
+          "southwest": {
+            "lat": 59.31020161970849,
+            "lng": 18.0807195197085
+          }
+        }
+      },
+      "place_id": "ChIJ4yoNnPd3X0YRoX6nk4QZ0GA",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
   },
   {
     "visited": true,
@@ -16576,7 +16738,88 @@
     "visited": false,
     "venue": "Ramen Ki-Mama, Birger Jarlsgatan",
     "comment": "",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "93",
+          "short_name": "93",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Birger Jarlsgatan",
+          "short_name": "Birger Jarlsgatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Norrmalm",
+          "short_name": "Norrmalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "113 56",
+          "short_name": "113 56",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Birger Jarlsgatan 93, 113 56 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.34702960000001,
+          "lng": 18.0608269
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.34837858029151,
+            "lng": 18.0621758802915
+          },
+          "southwest": {
+            "lat": 59.3456806197085,
+            "lng": 18.0594779197085
+          }
+        }
+      },
+      "place_id": "ChIJyTBmdGydX0YRMCR3ae43Mj8",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
   },
   {
     "visited": false,
@@ -18981,13 +19224,175 @@
     "visited": false,
     "venue": "Frick & Son, Birger Jarlsgatan",
     "comment": "(Tidigare en food truck)",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "112",
+          "short_name": "112",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Birger Jarlsgatan",
+          "short_name": "Birger Jarlsgatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "\u00d6stermalm",
+          "short_name": "\u00d6stermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "114 20",
+          "short_name": "114 20",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Birger Jarlsgatan 112, 114 20 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3480826,
+          "lng": 18.0606073
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.3494315802915,
+            "lng": 18.0619562802915
+          },
+          "southwest": {
+            "lat": 59.34673361970849,
+            "lng": 18.0592583197085
+          }
+        }
+      },
+      "place_id": "ChIJkQSaY2ydX0YR1Ug4i-vXsjw",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
   },
   {
     "visited": false,
     "venue": "L\u00e5dan",
     "comment": "(Flippin Burgers nya st\u00e4lle med blandad fast food)",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "63",
+          "short_name": "63",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Luntmakargatan",
+          "short_name": "Luntmakargatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Norrmalm",
+          "short_name": "Norrmalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "113 58",
+          "short_name": "113 58",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Luntmakargatan 63, 113 58 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.34037970000001,
+          "lng": 18.0604336
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.34172868029151,
+            "lng": 18.0617825802915
+          },
+          "southwest": {
+            "lat": 59.3390307197085,
+            "lng": 18.0590846197085
+          }
+        }
+      },
+      "place_id": "ChIJhSjWj2idX0YRuBNFBG7hhiQ",
+      "types": [
+        "establishment",
+        "food",
+        "point_of_interest",
+        "restaurant"
+      ]
+    }
   },
   {
     "visited": true,
@@ -24001,7 +24406,88 @@
     "visited": false,
     "venue": "Fikabaren, S\u00f6der",
     "comment": "",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "10",
+          "short_name": "10",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "S\u00f6dermannagatan",
+          "short_name": "S\u00f6dermannagatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "S\u00f6dermalm",
+          "short_name": "S\u00f6dermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "116 23",
+          "short_name": "116 23",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "S\u00f6dermannagatan 10, 116 23 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.3144371,
+          "lng": 18.0798915
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.3157860802915,
+            "lng": 18.0812404802915
+          },
+          "southwest": {
+            "lat": 59.3130881197085,
+            "lng": 18.0785425197085
+          }
+        }
+      },
+      "place_id": "ChIJEd-7kvl3X0YRnQLIX2FfOJE",
+      "types": [
+        "cafe",
+        "establishment",
+        "food",
+        "point_of_interest"
+      ]
+    }
   },
   {
     "visited": true,
@@ -27074,7 +27560,87 @@
     "visited": false,
     "venue": "Stockholms br\u00e4nneri",
     "comment": "",
-    "google": {}
+    "google": {
+      "address_components": [
+        {
+          "long_name": "136A",
+          "short_name": "136A",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Folkungagatan",
+          "short_name": "Folkungagatan",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "S\u00f6dermalm",
+          "short_name": "S\u00f6dermalm",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Stockholm",
+          "short_name": "Stockholm",
+          "types": [
+            "postal_town"
+          ]
+        },
+        {
+          "long_name": "Stockholms l\u00e4n",
+          "short_name": "Stockholms l\u00e4n",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Sweden",
+          "short_name": "SE",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "116 19",
+          "short_name": "116 19",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Folkungagatan 136A, 116 19 Stockholm, Sweden",
+      "geometry": {
+        "location": {
+          "lat": 59.315425,
+          "lng": 18.089252
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 59.31677398029151,
+            "lng": 18.0906009802915
+          },
+          "southwest": {
+            "lat": 59.31407601970849,
+            "lng": 18.0879030197085
+          }
+        }
+      },
+      "place_id": "ChIJbSUEnfh3X0YRk-f4-mriQrg",
+      "types": [
+        "bar",
+        "establishment",
+        "point_of_interest"
+      ]
+    }
   },
   {
     "visited": true,
