@@ -38,7 +38,7 @@
 
         for (var i = 0; i < venues.length; i++) {
           venue = venues[i];
-          if (venue != null && venue.google != null) {
+          if (venue != null && venue.google != null && venue.google.geometry != null) {
             markers[i] = new google.maps.Marker({
               position: venue.google.geometry.location,
               map: map,
